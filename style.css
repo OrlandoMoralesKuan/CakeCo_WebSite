@@ -254,11 +254,11 @@ p {
   }
 
   .navUlist {
-    width: 40%;
+    width: 160px;
     height: 50px;
     position: absolute;
     top: 50px;
-    right: 0;
+    right: 0px;
     display: block;
   }
 
@@ -292,7 +292,76 @@ p {
   }
 }
 
-@media (min-width: 280px) and (max-width: 500px) {
+@media (min-width: 280px) and (max-width: 348px) {
+  .imgLogo {
+    height: 80%;
+  }
+
+  .h2Header {
+    padding-left: 25px;
+    padding-right: 10px;
+    padding-top: 95px;
+    font-size: 15px;
+  }
+
+  .sectionMain1 {
+    flex-direction: column-reverse;
+  }
+
+  .imgSectionMain1 {
+    height: 80%;
+  }
+
+  .divMain1 {
+    align-items: flex-start;
+    padding-bottom: 30px;
+  }
+
+  .pDivMain1 {
+    text-align: center;
+  }
+
+  .sectionMain2 {
+    justify-items: start;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .imgSectionMain2 {
+    width: 100%;
+  }
+
+  .footer {
+    padding-top: 10px;
+  }
+  .logosFooter {
+    flex-direction: column;
+    padding-top: 0px;
+  }
+  .iconFooter {
+    height: 28px;
+    border: solid 1.5px #000000;
+    border-radius: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .textFooter {
+    font-size: 10px;
+    text-align: end;
+    margin-top: 0;
+    padding-right: 10px;
+  }
+
+  .circle {
+    border: solid 0.5px #000000;
+    border-radius: 50%;
+    padding: 1px;
+    font-size: 5px;
+  }
+}
+
+@media (min-width: 349px) and (max-width: 500px) {
   .imgLogo {
     height: 80%;
   }
@@ -514,6 +583,7 @@ p {
 
   .imgSectionMain1 {
     width: 65%;
+    height: 100%;
   }
 
   .h1DivMain1 {
